@@ -1,0 +1,9 @@
+{
+  "current": {"provider": "example-provider", "account": "existing-plan", "model": "example-large"},
+  "task": {"scope": "background", "host_supports_route": true, "required_context_tokens": 16000, "required_capabilities": ["text", "tools"]},
+  "models": [
+    {"provider": "example-provider", "account": "existing-plan", "model": "example-tiny", "available": true, "authenticated": true, "rank": 0, "rank_verified": true, "tier_source": "Fictional example; replace with verified account catalog", "context_tokens": 8000, "capabilities": ["text"]},
+    {"provider": "example-provider", "account": "existing-plan", "model": "example-small", "available": true, "authenticated": true, "rank": 1, "rank_verified": true, "tier_source": "Fictional example; replace with verified account catalog", "context_tokens": 64000, "capabilities": ["text", "tools"]},
+    {"provider": "example-provider", "account": "existing-plan", "model": "example-large", "available": true, "authenticated": true, "rank": 2, "rank_verified": true, "tier_source": "Fictional example; replace with verified account catalog", "context_tokens": 128000, "capabilities": ["text", "tools", "vision"]}
+  ]
+}
